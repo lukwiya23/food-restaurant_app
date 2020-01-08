@@ -1,3 +1,5 @@
+import 'package:food_app/models/food.dart';
+
 class Restaurant {
   final String imageUrl;
   final String name;
