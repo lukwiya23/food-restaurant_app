@@ -1,3 +1,4 @@
+import 'package:food_app/models/food.dart';
 import 'package:food_app/models/restaurant.dart';
 
 class Order {
