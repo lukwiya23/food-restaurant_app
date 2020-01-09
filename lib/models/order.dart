@@ -5,4 +5,6 @@ class Order {
   final Food food;
   final String date;
   final int quantity;
+
+  Order(this.restaurant, this.food, this.date, this.quantity);
 }
