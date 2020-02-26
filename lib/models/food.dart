@@ -3,5 +3,5 @@ class Food {
   final String name;
   final double price;
 
-  Food(this.imageUrl, this.name, this.price);
+  Food({this.imageUrl, this.name, this.price});
 }
