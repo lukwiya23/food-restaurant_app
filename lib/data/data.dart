@@ -9,3 +9,5 @@ final _steak =
     Food(imageUrl: 'assets/images/steak.jpg', name: 'Steak', price: 7.99);
 final _pasta =
     Food(imageUrl: 'assets/images/pasta.jpg', name: 'Pasta', price: 5.99);
+final _ramen =
+    Food(imageUrl: 'assets/images/ramen.jpg', name: 'Ramen', price: 4.99);
