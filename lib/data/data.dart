@@ -19,3 +19,10 @@ final _pizza =
     Food(imageUrl: 'assets/images/pizza.jpg', name: 'Pizza', price: 11.99);
 final _salmon = Food(
     imageUrl: 'assets/images/salmon.jpg', name: 'Salmon Salad', price: 12.99);
+
+    //Restaurants
+    final _retaurant0 = Restaurant(
+      imageUrl: "assets/images/restaurant0.jpg",
+      name: 'Cafe Monte',
+      
+    )
