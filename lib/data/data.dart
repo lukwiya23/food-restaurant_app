@@ -68,35 +68,70 @@ final List<Restaurant> restaurants = [
 ];
 
 //User
-final currentUser = User(name: 'Bonnie', orders: [
-  Order(
-    date: 'Jan 10, 2020',
-    food: _steak,
-    restaurant: _restaurant2,
-    quantity: 1,
-  ),
-  Order(
-    date: 'Jan 15, 2020',
-    food: _ramen,
-    restaurant: _restaurant0,
-    quantity: 3,
-  ),
-  Order(
-    date: 'Feb 5, 2020',
-    food: _burrito,
-    restaurant: _restaurant1,
-    quantity: 2,
-  ),
-  Order(
-    date: 'March 2, 2020',
-    food: _salmon,
-    restaurant: _restaurant3,
-    quantity: 1,
-  ),
-  Order(
-    date: 'April 1, 2020',
-    food: _pancakes,
-    restaurant: _restaurant4,
-    quantity: 1,
-  ),
-]);
+final currentUser = User(
+  name: 'Bonnie',
+  orders: [
+    Order(
+      date: 'Jan 10, 2020',
+      food: _steak,
+      restaurant: _restaurant2,
+      quantity: 1,
+    ),
+    Order(
+      date: 'Jan 15, 2020',
+      food: _ramen,
+      restaurant: _restaurant0,
+      quantity: 3,
+    ),
+    Order(
+      date: 'Feb 5, 2020',
+      food: _burrito,
+      restaurant: _restaurant1,
+      quantity: 2,
+    ),
+    Order(
+      date: 'March 2, 2020',
+      food: _salmon,
+      restaurant: _restaurant3,
+      quantity: 1,
+    ),
+    Order(
+      date: 'April 1, 2020',
+      food: _pancakes,
+      restaurant: _restaurant4,
+      quantity: 1,
+    ),
+  ],
+  cart: [
+    Order(
+      date: 'April 11, 2020',
+      food: _burger,
+      restaurant: _restaurant2,
+      quantity: 2,
+    ),
+    Order(
+      date: 'June 11, 2020',
+      food: _pasta,
+      restaurant: _restaurant2,
+      quantity: 1,
+    ),
+    Order(
+      date: 'July 21, 2020',
+      food: _salmon,
+      restaurant: _restaurant3,
+      quantity: 1,
+    ),
+    Order(
+      date: 'July 21, 2020',
+      food: _pancakes,
+      restaurant: _restaurant4,
+      quantity: 3,
+    ),
+    Order(
+      date: 'July 22, 2020',
+      food: _burrito,
+      restaurant: _restaurant1,
+      quantity: 2,
+    ),
+  ],
+);
