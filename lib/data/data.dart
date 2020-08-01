@@ -21,7 +21,7 @@ final _salmon = Food(
     imageUrl: 'assets/images/salmon.jpg', name: 'Salmon Salad', price: 12.99);
 
 //Restaurants
-final _retaurant0 = Restaurant(
+final _restaurant0 = Restaurant(
   imageUrl: "assets/images/restaurant0.jpg",
   name: 'Cafe Monte',
   rating: 5,
@@ -58,3 +58,11 @@ final _restaurant4 = Restaurant(
   rating: 4,
   menu: [_burrito, _ramen, _pancakes, _salmon],
 );
+
+final List<Restaurant> restaurants = [
+  _restaurant0,
+  _restaurant1,
+  _restaurant2,
+  _restaurant3,
+  _restaurant4,
+];
