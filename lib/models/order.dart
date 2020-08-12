@@ -7,5 +7,5 @@ class Order {
   final String date;
   final int quantity;
 
-  Order(this.restaurant, this.food, this.date, this.quantity);
+  Order({this.restaurant, this.food, this.date, this.quantity});
 }
