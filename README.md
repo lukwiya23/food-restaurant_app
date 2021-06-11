@@ -10,6 +10,6 @@
 
 - Option for directions to the restaurant or restaurant delivery
 
-- Using dummy models for the moment..will work on the api later
+- Using dummy models for the moment..
 
 >>>>>>> 67c61e1c1a06
