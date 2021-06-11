@@ -12,4 +12,4 @@
 
 - Using dummy models for the moment..will work on the api later
 
->>>>>>> 67c61e1c1a061b1599f75bcc9bfa9a8716c8cddb
+>>>>>>> 67c61e1c1a061b1599f75
